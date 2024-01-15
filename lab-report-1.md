@@ -13,7 +13,7 @@
 * This is not an error because the `lecture1` directory exists in the home directory and after being passed in as an argument to `cd`, we successfully switched to the `lecture1` directory.
 3. Share an example of using the command with a path to a file as an argument.
   ![Image](cd_file_argument.png)
-* The working directory when `cd` was run was `/lecture1`.
+* The working directory when `cd` was run was `/home/lecture1`.
 * We got the output `bash: cd: Hello.java: Not a directory` because we passed in a file, in this case Hello.java, as an argument to `cd` requires a directory as an argument. Because we cannot move into a file, the label on the terminal prompt stays the same and so does the working directory. 
 * This is an error because cd means change directory and requires a directory as an argument, not a file like Hello.java because we cannot move into a file, the system prints out an error message in the terminal  
 
