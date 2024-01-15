@@ -1,9 +1,8 @@
 # Lab Report 1
 
 ## cd 
-1. Share an example of using the command with no arguments.
-   
-   ![Image](cd_no_arguments.png)
+1. Share an example of using the command with no arguments. 
+* ![Image](cd_no_arguments.png)
 * The working directory when `cd` was run was `/home`.
 * We got an output of nothing because the command did not do anything. `cd` means change directories but because we did not give the `cd` command an argument (there was nothing typed after `cd`), we did not give it a directory to change to. Therefore, the label of the terminal prompt stayed the same and we remained in the /home directory.  
 * The output is not an error because we did not give the `cd` command a directory to change to, so it correctly remained in the /home directory.  
