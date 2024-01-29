@@ -1,9 +1,9 @@
 # Lab Report 2 - Week 3
 
 ## Part 1
-1. Code for `ChatServer`
+1. **Code for `ChatServer`**
    [!img]
-2. First usage of `/add-message`
+2. **First usage of `/add-message`**
    [!img]
    * The method in my code that was called was the `handleRequest` method that takes in a
      URI reference and checks the path of the URI. Because the path in this case was equal
@@ -19,7 +19,7 @@
      to “Karen: Hello\n” and the value of `firstSplit` becomes `[“s=Hello”, “user=Karen”]`.
      The value of `sAndMessage` becomes `[“s”, “Hello”]` and the value of `userAndName`
      becomes `[“user”, “Karen”]`.
-3. Second usage of `/add-message`
+3. **Second usage of `/add-message`**
    [!img]
    * The method in my code that was called was the `handleRequest` method that takes in a
      URI reference and checks the path of the URI. Because the path in this case was equal
@@ -38,10 +38,15 @@
      The argument URI `url` that is passed in also has changed its query to
      `/add-message?s=Hi!+How+are+you+doing?+&user=LucyGoose`.
 
+## Part 2
+1. The absolute path to the private key for your SSH key for logging into `ieng6`
+[!img]
+3. The absolute path to the public key for your SSH key for logging into `ieng6`
+4. Terminal interaction where you log into your ieng6 account without being asked for a password.
 
+## Part 3
+Something that I learned in the lab from week 2 that I did not know before was the existence of servers, especially remote servers and how servers could be launched and accessed remotely. To begin, I learned that servers have ports that they run on that’s part of their URL and they can be chosen by the programmer. I also learned how to sign into remote servers, in this case ieng6, and I could access the different machines in B260, just by changing the port number (i.e. 4017 for computer 17 in B260). FInally, I learned that I can load the web page I launched on that computer from any other computer that is in the lab, which was very interesting!
 
-  
-     
 
 
    
