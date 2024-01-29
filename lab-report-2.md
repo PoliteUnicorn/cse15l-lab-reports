@@ -2,10 +2,10 @@
 
 ## Part 1
 1. **Code for `ChatServer`**
-   ![Image](ChatServer_Code.png)
-   
+   <img src="ChatServer_Code.png" width="90%" height="90%" />
 2. **First usage of `/add-message`**
    ![Image](first_message_chat_server.png)
+   
    * The method in my code that was called was the `handleRequest` method that takes in a
      URI reference and checks the path of the URI. Because the path in this case was equal
      to `/add-message`, it split the query around the ‘&’ sign to isolate the message and
@@ -21,7 +21,7 @@
      The value of `sAndMessage` becomes `[“s”, “Hello”]` and the value of `userAndName`
      becomes `[“user”, “Karen”]`.  <br>
      
-3. **Second usage of `/add-message`**
+4. **Second usage of `/add-message`**
    ![Image](second_message_chat_server.png)
    * The method in my code that was called was the `handleRequest` method that takes in a
      URI reference and checks the path of the URI. Because the path in this case was equal
