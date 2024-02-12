@@ -49,8 +49,8 @@
 ![Image](ssh_path.png)
 
 2. **The absolute path to the public key for your SSH key for logging into `ieng6`**  <br>
-The absolute path to the public key for my SSH key for logging into ieng6 is `Users/karenyan/.ssh/id_rsa.pub`.
-   ![Image](ssh_path.png)
+The absolute path to the public key for my SSH key for logging into ieng6 is `Users/karenyan/.ssh/authorized_keys`.
+   ![Image](ssh_ieng6.png)
    
 3. **Terminal interaction where you log into your ieng6 account without being asked for a password.**
 ![Image](ieng6_server.png)
