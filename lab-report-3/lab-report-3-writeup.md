@@ -23,7 +23,7 @@ Example of JUnit test for {3}:
 ```
 
 3. The symptom, as the output of running the tests, is that the failure inducing input's test does not pass, while the array with just one element's test does pass.
-   ![Image] (bug-failed-test-output.png)
+   ![Image](bug-failed-test-output.png)
 
 4. The bug, as the before-and-after code change required to fix it
    * Bug from before:
