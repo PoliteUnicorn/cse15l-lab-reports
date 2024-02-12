@@ -46,13 +46,13 @@
 ## Part 2
 1. **The absolute path to the private key for your SSH key for logging into `ieng6`**  <br>
    The absolute path to the private key for my SSH key for logging into ieng6 is `Users/karenyan/.ssh/id_rsa`. 
-![Image](ssh_path.png)
+<img src="ssh_path.png" width="90%" height="90%" />
 
 2. **The absolute path to the public key for your SSH key for logging into `ieng6`**  <br>
 The absolute path to the public key for my SSH key for logging into ieng6 is `Users/karenyan/.ssh/authorized_keys`.
-   ![Image](ssh_ieng6.png)
+   <img src="ssh_ieng6.png" width="90%" height="90%" />
    
-3. **Terminal interaction where you log into your ieng6 account without being asked for a password.**
+4. **Terminal interaction where you log into your ieng6 account without being asked for a password.**
 ![Image](ieng6_server.png)
    <br>
    
