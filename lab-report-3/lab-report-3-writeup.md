@@ -310,7 +310,7 @@ Chosen command: `grep`
            fish
            ```
      * This command finds the lines in the file
-       technical//government/Env_Prot_Agen/ctf1-6.txt that contain the word pollution,
+       `technical//government/Env_Prot_Agen/ctf1-6.txt` that contain the word pollution,
        air or fish from the pattern-file.txt as an argument.
 
      *  This is useful if you would like to create an application that matches a
