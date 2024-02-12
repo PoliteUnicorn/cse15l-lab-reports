@@ -303,6 +303,12 @@ Chosen command: `grep`
         replacing the air above the water in the bags with oxygen from a
         airstone supplied by a portable pump. The DO concentration must not
         ```
+         * pattern-file.txt contents:
+           ```
+           pollution
+           air
+           fish
+           ```
      * This command finds the lines in the file
        technical//government/Env_Prot_Agen/ctf1-6.txt that contain the word pollution,
        air or fish from the pattern-file.txt as an argument.
