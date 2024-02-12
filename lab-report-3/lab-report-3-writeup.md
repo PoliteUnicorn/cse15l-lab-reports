@@ -232,6 +232,9 @@ Chosen command: `grep`
       search for a keyword and then prints out some context, so you could easily
       locate which part of the application you need to go to in order to get the
          information that you want.
+   * Citation: I used the website https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+        in order to find different command line options for grep, but I came up with the
+        examples myself. 
 4. Option: `-f`
    * Example 1:
       * Command and output:
