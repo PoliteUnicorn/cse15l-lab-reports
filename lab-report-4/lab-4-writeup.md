@@ -80,7 +80,7 @@ was one space to the right of the word index1 in the third while loop.
 
 ## Step 8:
 * **Keys pressed:** `<up>` `<up>` `<enter>`
-* Screenshot: ![Image]
+* Screenshot: ![Image](step-8-bash-fixed.png)
 * In order to run the tests again, I needed to run the `bash test.sh` command, but since I had
   already run it before, I used the up arrow to find it in the search history. It was 2 up in
   the search history, so I accessed and ran it the same way.
