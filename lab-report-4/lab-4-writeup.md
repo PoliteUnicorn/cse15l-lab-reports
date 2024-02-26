@@ -47,26 +47,32 @@
 
 ## Step 7
 1. **Keys pressed:** v, i, m, L, i, `<tab>`, ., `<tab>` `<enter>`
-`<down>` `<down>` `<down>` `<down>` `<down>` `<left>` `<left>`
+   * Screenshot:
+   * In order to edit the code in the `ListExamples.java` file, I had to open this in vim, so
+     I typed the vim command and the first two letters of the `ListExamples.java` file, before
+     using `<tab>` to autofill the rest of the name. However, it stopepd after `ListExamples`,
+     so I typed `.` and then tab again to fill in the rest of the `.java` tag before running 
+     the command. 
+2. **Keys pressed:**:`<down>` `<down>` `<down>` `<down>` `<down>` `<left>` `<left>`
 * Screenshot:
 * In order to get to the incorrect line in the ListExamples.java file, I had to navigate down a
 few lines in the code, until I reached that line, and then moved left through the line until I
-was one space to the right of the word index1 in the third while loop. I noticed that it was  
-2. **Keys pressed:** i
+was one space to the right of the word index1 in the third while loop.
+3. **Keys pressed:** i
 * Screenshot: 
 * I used the key `i` in order to enter insert mode in vim so I could edit the code in the
   ListExamples.java file. After I pressed this key, the word `INSERT` appeared at the bottom of
   the terminal window. 
-3.**Keys pressed:** `<delete>` `2`
+4.**Keys pressed:** `<delete>` `2`
 * Screenshot: 
 * After I had navigated to the correct position (1 space to the right of the word index1), I
   then used the delete key to remove the `1` and replace it with the number `2`, so that the
   correct index was being updated. 
-4. **Keys pressed:** `<esc>`
+5. **Keys pressed:** `<esc>`
 * Screenshot: 
 * To quit from the insert mode in vim, I used the `esc` key in order to return to the normal
   state
-5. **Keys pressed:** `:`, w, q `<enter>`
+6. **Keys pressed:** `:`, w, q `<enter>`
 * Screenshot: 
 * In order to save the changes I made while I was in vim, I typed in `:wq` and then exited back
   to the terminal window. 
