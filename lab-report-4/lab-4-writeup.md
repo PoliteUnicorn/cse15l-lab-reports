@@ -4,7 +4,7 @@
 * **Keys pressed**: s, s, h , k, 2, y, a, n, @, i, e, n, g, 6, -, 2, 0, 1, ., u, c ,s, d, ., e,
   d, u `<enter>`
 * Screenshot: ![Image](step-4-ssh.png)
-* This allows me to log into the remote server without having to enter my password
+* The ssh keyword followed by my account name allows me to log into the remote server without having to enter my password
   because I have connected the SSH key from my computer to the remote server.
 
 ## Step 5: 
