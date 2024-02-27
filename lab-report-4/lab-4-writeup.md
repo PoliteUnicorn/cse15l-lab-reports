@@ -11,7 +11,7 @@
 1. **Keys pressed:** c, s, 1, `<tab>`, `<enter>`
 * Screenshot: ![Image](step-5-center-cs15lwi24.png)
 * This is because I wanted to do work for CSE 15L, so I moved to the inside of that directory.
-  By using the <tab> button, I was able to autofill the rest of the command without typing
+  By using the `<tab>` button, I was able to autofill the rest of the directory without typing
   anything myself. 
 
 2. **Keys pressed:** g, i, t, c, l, o, n, e, `<command>` `<v>`, `<enter>`
@@ -24,13 +24,13 @@
 1. **Keys pressed:** l, s, `<enter>`
  * Screenshot:
  * ![Image](step-6-ls-home.png)
- * In order to find the name of the directory, I used `ls` to list out all of the
-   directories.
+ * In order to find the name of the lab's directory, I used `ls` to list out all of the
+   files/directories in the `cs15lwi24` directory. 
 
 2. **Keys pressed:** c, d, l `<tab>`, `<enter>`
 * Screenshot: ![Image](step-6-cd-lab7.png)
-* I then had to move into the directory for lab7 in order to run the tests inside
-  of it. I typed `cd`, then `l` and tab to autofill the rest of the directory name,
+* After checking the names of the directories in `cs15lwi24`, I then had to move into the directory for lab7 in order to run the tests inside
+  of it. I typed `cd`, then `l` and tab to autofill the rest of the directory name `lab7`,
   so that I didn’t have to type it out myself.  
 
 3. **Keys pressed:** `<up>` `<up>` `<enter>`
@@ -38,7 +38,7 @@
 * Once I was inside the lab7 directory, I needed to know where the test files were
   located, so I used the up arrow twice in order to access the `ls` command I had
   run that was now stored in the search history. I then ran it to find the name of
-  the tester files.
+  the tester files, which was `test.sh`.
 
 4. **Keys pressed:** b, a, s, h, t, `<tab>`, `<enter>`
 * Screenshot: ![Image](step-6-run-tasks.png)
@@ -49,7 +49,7 @@
 ## Step 7
 1. **Keys pressed:** v, i, m, L, i, `<tab>`, ., `<tab>` `<enter>`
    * Screenshot: ![Image](step-7-vim-command.png)
-   * In order to edit the code in the `ListExamples.java` file, I had to open this in vim, so
+   * In order to edit the code in the `ListExamples.java` file, I had to open the file in vim, so
      I typed the vim command and the first two letters of the `ListExamples.java` file, before
      using `<tab>` to autofill the rest of the name. However, it stopepd after `ListExamples`,
      so I typed `.` and then tab again to fill in the rest of the `.java` tag before running 
