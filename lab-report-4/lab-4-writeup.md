@@ -42,9 +42,11 @@
 
 4. **Keys pressed:** b, a, s, h, t, `<tab>`, `<enter>`
 * Screenshot: ![Image](step-6-run-tasks.png)
-* I needed to use the `bash` command to run the test.sh file, so I typed bash and
-  then t, which is the first letter of the test.sh file. Then I used `tab` to
-  autofill the name of the file before running the command.
+* In order to run the tests without typing out the whole command myslef, I could run the
+  bash script inside of test.sh.
+  I needed to use the `bash` command to run the test.sh file, so I typed bash and
+  then t, which is the first letter of the `test.sh` file. Then I used `tab` to
+  autofill the name of the file before running the command. 
 
 ## Step 7
 1. **Keys pressed:** v, i, m, L, i, `<tab>`, ., `<tab>` `<enter>`
@@ -63,7 +65,7 @@ was one space to the right of the word index1 in the third while loop.
 * Screenshot: ![Image](step-7-navigate.png)
 * I used the key `i` in order to enter insert mode in vim so I could edit the code in the
   ListExamples.java file. After I pressed this key, the word `INSERT` appeared at the bottom of
-  the terminal window. 
+  the terminal window, and I can now directly edit the ListExamples.java file. 
 4.**Keys pressed:** `<delete>` `2`
 * Screenshot: ![Image](step-7-fixed-bug.png)
 * After I had navigated to the correct position (1 space to the right of the word index1), I
@@ -71,12 +73,12 @@ was one space to the right of the word index1 in the third while loop.
   correct index was being updated. 
 5. **Keys pressed:** `<esc>`
 * Screenshot: ![Image](step-7-after-esc.png)
-* To quit from the insert mode in vim, I used the `esc` key in order to return to the normal
-  state
+* To exit from the insert mode in vim, I used the `esc` key in order to return to the normal
+  state, where I cannot type directly into the `ListExamples.java` file.
 6. **Keys pressed:** `:`, w, q `<enter>`
 * Screenshot: ![Image](step-7-fixed.png)
 * In order to save the changes I made while I was in vim, I typed in `:wq` and then exited back
-  to the terminal window. 
+  to the terminal window. `w` saves the changes and `q` allows me to quit vim.
 
 ## Step 8:
 * **Keys pressed:** `<up>` `<up>` `<enter>`
@@ -89,10 +91,10 @@ was one space to the right of the word index1 in the third while loop.
 
 1. **Keys pressed:** g, i, t, `<space>`, s, t, a, t, u, s, `<enter>` 
 * Screenshot: ![Image](step-9-git-status.png)
-* In order to check which branch I was on I used git status to check which files I had added and modified and the branch I was editing. 
+* In order to check which branch I was on I used git status to check which files I had added and modified and the branch I was editing.  
 2. **Keys pressed:** g, i, t, `<space>`, a, d, d, `<.>`, `<enter>` 
 * Screenshot: ![Image](step-9-git-add.png)
-* In order to add all of my changes to my branches, I used git add and the period as a shortcut to mean add all of my changes.
+* In order to add all of my changes to my branches, I used git add and the period as a shortcut to mean add all of my changes to my branch.
 3. **Keys pressed:** `<up>`, `<up>`, `<enter>`
 * Screenshot: ![Image](step-9-git-status-after.png)
 * In order to check if there were any more unstaged changes, I used the 	`git status` command again. However, because I knew that I had run this command already, I went through the search history, and it was two up from the last command, so I used the up arrow to access it and then run it. 
