@@ -55,26 +55,26 @@
      so I typed `.` and then tab again to fill in the rest of the `.java` tag before running 
      the command. 
 2. **Keys pressed:**:`<down>` `<down>` `<down>` `<down>` `<down>` `<left>` `<left>`
-* Screenshot:  ![Image](step-7-vim-opened.png)
+* Screenshot:  ![Image](step-7-open-vim.png)
 * In order to get to the incorrect line in the ListExamples.java file, I had to navigate down a
 few lines in the code, until I reached that line, and then moved left through the line until I
 was one space to the right of the word index1 in the third while loop.
-3. **Keys pressed:** i
+3. **Keys pressed:** `i`
 * Screenshot: ![Image](step-7-navigate.png)
 * I used the key `i` in order to enter insert mode in vim so I could edit the code in the
   ListExamples.java file. After I pressed this key, the word `INSERT` appeared at the bottom of
   the terminal window. 
 4.**Keys pressed:** `<delete>` `2`
-* Screenshot: ![Image](
+* Screenshot: ![Image](step-7-fixed-bug.png)
 * After I had navigated to the correct position (1 space to the right of the word index1), I
   then used the delete key to remove the `1` and replace it with the number `2`, so that the
   correct index was being updated. 
 5. **Keys pressed:** `<esc>`
-* Screenshot: ![Image]
+* Screenshot: ![Image](step-7-after-esc.png)
 * To quit from the insert mode in vim, I used the `esc` key in order to return to the normal
   state
 6. **Keys pressed:** `:`, w, q `<enter>`
-* Screenshot: ![Image]
+* Screenshot: ![Image](step-7-fixed.png)
 * In order to save the changes I made while I was in vim, I typed in `:wq` and then exited back
   to the terminal window. 
 
@@ -88,24 +88,24 @@ was one space to the right of the word index1 in the third while loop.
 ## Step 9:
 
 1. **Keys pressed:** g, i, t, `<space>`, s, t, a, t, u, s, `<enter>` 
-* Screenshot: ![Image]
+* Screenshot: ![Image](step-9-git-status.png)
 * In order to check which branch I was on I used git status to check which files I had added and modified and the branch I was editing. 
 2. **Keys pressed:** g, i, t, `<space>`, a, d, d, `<.>`, `<enter>` 
-* Screenshot: ![Image]
+* Screenshot: ![Image](step-9-git-add.png)
 * In order to add all of my changes to my branches, I used git add and the period as a shortcut to mean add all of my changes.
 3. **Keys pressed:** `<up>`, `<up>`, `<enter>`
-* Screenshot: ![Image]
+* Screenshot: ![Image](step-9-git-status-after.png)
 * In order to check if there were any more unstaged changes, I used the 	`git status` command again. However, because I knew that I had run this command already, I went through the search history, and it was two up from the last command, so I used the up arrow to access it and then run it. 
 4. **Keys pressed:** g, i, t, `<space>`, c, o `<tab>`, -, m, `<space>`, `<’>`, F, i, x, e, d, `<space>`, b, u, g, `<’>`
 `<enter>`
-* Screenshot: ![Image]
+* Screenshot: ![Image](step-9-git-commit.png)
 * In order to commit the changes, I used the `git commit` command, however, instead of typing
   it all out, I just typed the first two letters of `commit` and then used the `<tab>` to fill
   in the rest of the command. I used the `-m` option to write my message there instead of
   going into vim and writing it, so I included my short commit message in single quotes after
   the command. 
 5. **Keys pressed:** g, i, t, `<space>`, p, u, s, `<tab>` `<enter>`
-* Screenshot: ![Image]
+* Screenshot: ![Image](step-9-git-push.png)
 * In order to push my commit onto my branch, I needed to use the `git push` command, so I
   typed in `git` and the first three letters of `push` and then the `<tab>` key to autofill it
   and pressed enter to run the command. 
