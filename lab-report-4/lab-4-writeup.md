@@ -91,7 +91,7 @@ was one space to the right of the word index1 in the third while loop.
 
 1. **Keys pressed:** g, i, t, `<space>`, s, t, a, t, u, s, `<enter>` 
 * Screenshot: ![Image](step-9-git-status.png)
-* In order to check which branch I was on I used git status to check which files I had added and modified and the branch I was editing.  
+* In order to check which branch I was on, I used git status to check which files I had added and modified and the branch I was editing.  
 2. **Keys pressed:** g, i, t, `<space>`, a, d, d, `<.>`, `<enter>` 
 * Screenshot: ![Image](step-9-git-add.png)
 * In order to add all of my changes to my branches, I used git add and the period as a shortcut to mean add all of my changes to my branch.
