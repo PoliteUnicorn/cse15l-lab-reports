@@ -1,7 +1,7 @@
 # Lab Report 4
 
 ## Step 4:
-* **Keys pressed**: s, s, h , k, 2, y, a, n, @, i, e, n, g, 6, -, 2, 0, 1, ., u, c ,s, d, ., e,
+* **Keys pressed**: s, s, h, `<space>`, k, 2, y, a, n, @, i, e, n, g, 6, -, 2, 0, 1, ., u, c ,s, d, ., e,
   d, u `<enter>`
 * Screenshot: ![Image](step-4-ssh.png)
 * The ssh keyword followed by my account name allows me to log into the remote server without having to enter my password
@@ -14,7 +14,7 @@
   By using the `<tab>` button, I was able to autofill the rest of the directory without typing
   anything myself. 
 
-2. **Keys pressed:** g, i, t, c, l, o, n, e, `<command>` `<v>`, `<enter>`
+2. **Keys pressed:** g, i, t, `<space>`, c, l, o, n, e, `<command>` `<v>`, `<enter>`
 * Screenshot: ![Image](step-5-git-clone.png)
 * In order to clone the repository using my ssh key, I typed in the git clone c
   ommand then used the `Command-V` command in order to paste the password-protected
@@ -27,7 +27,7 @@
  * In order to find the name of the lab's directory, I used `ls` to list out all of the
    files/directories in the `cs15lwi24` directory. 
 
-2. **Keys pressed:** c, d, l `<tab>`, `<enter>`
+2. **Keys pressed:** c, d, `<space>`, l `<tab>`, `<enter>`
 * Screenshot: ![Image](step-6-cd-lab7.png)
 * After checking the names of the directories in `cs15lwi24`, I then had to move into the directory for lab7 in order to run the tests inside
   of it. I typed `cd`, then `l` and tab to autofill the rest of the directory name `lab7`,
@@ -40,7 +40,7 @@
   run that was now stored in the search history. I then ran it to find the name of
   the tester files, which was `test.sh`.
 
-4. **Keys pressed:** b, a, s, h, t, `<tab>`, `<enter>`
+4. **Keys pressed:** b, a, s, h, `<space>`, t, `<tab>`, `<enter>`
 * Screenshot: ![Image](step-6-run-tasks.png)
 * In order to run the tests without typing out the whole command myslef, I could run the
   bash script inside of test.sh.
@@ -49,7 +49,7 @@
   autofill the name of the file before running the command. 
 
 ## Step 7
-1. **Keys pressed:** v, i, m, L, i, `<tab>`, ., `<tab>` `<enter>`
+1. **Keys pressed:** v, i, m, `<space>`, L, i, `<tab>`, ., `<tab>` `<enter>`
    * Screenshot: ![Image](step-7-vim-command.png)
    * In order to edit the code in the `ListExamples.java` file, I had to open the file in vim, so
      I typed the vim command and the first two letters of the `ListExamples.java` file, before
@@ -107,7 +107,7 @@ was one space to the right of the word index1 in the third while loop.
   going into vim and writing it, so I included my short commit message in single quotes after
   the command. 
 5. **Keys pressed:** g, i, t, `<space>`, p, u, s, `<tab>` `<enter>`
-* Screenshot: ![Image](step-9-git-push.png)
+* Screenshot: ![Image](step-9-git-push-terminal.png)
 * In order to push my commit onto my branch, I needed to use the `git push` command, so I
   typed in `git` and the first three letters of `push` and then the `<tab>` key to autofill it
   and pressed enter to run the command. 
