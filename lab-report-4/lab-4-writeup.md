@@ -108,6 +108,7 @@ was one space to the right of the word index1 in the third while loop.
   the command. 
 5. **Keys pressed:** g, i, t, `<space>`, p, u, s, `<tab>` `<enter>`
 * Screenshot: ![Image](step-9-git-push-terminal.png)
+* Screenshot of github updated:![Image](step-9-github-updated.png)
 * In order to push my commit onto my branch, I needed to use the `git push` command, so I
   typed in `git` and the first three letters of `push` and then the `<tab>` key to autofill it
   and pressed enter to run the command. 
