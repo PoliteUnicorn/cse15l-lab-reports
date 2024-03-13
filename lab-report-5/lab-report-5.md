@@ -3,7 +3,7 @@
 ## Part 1 - Debugging scenario 
 
 Student’s Original Post:
- ## Aneed Halp: 
+ ### Aneed Halp: 
 Hi! I’m having some trouble with implementing the autograder code. 
 When I run the bash script with the link `https://github.com/ucsd-cse15l-f22/list-methods-lab3` 
 it works and provides a score and no error message. However, when I run it with the corrected methods link, 
@@ -18,7 +18,7 @@ Thanks!
 
 `<Screenshot>` This is my code and the output for the other tests. [!Image]()
 
-## TA Response 
+### TA Response 
 Hi Aneed! 
 Have you tried to print out the values for the `tests` and `failures`? It might be helpful to see what 
 values are being stored before they are printed out into the terminal. Additionally, I don’t think that 
@@ -26,13 +26,16 @@ you need the `$` before each variable name when assigning a value to `successes`
 double parentheses already. In bash, arithmetic is done in the form `$(())`, and the inner variables do 
 not need another `$` before them.
 
-## Student Response 2 
+### Aneed Halp
 Thanks for the help! I tried printing out the value of the `tests` and `failures` variables. I added the echo statements, 
 but nothing was printed out at first. Then, I tried printing out the `lastline` variable and I realized that the bug is 
 that I didn’t take into account the format of the JUnit tests when all of the test cases pass. It says `OK (2 tests)`, 
 so it doesn’t get the correct values for the score. The `tests` variable stores the word `tests)` and the failures variable is out of bound for the length of the output, so it stores nothing. That’s why when the final score is printed it says ` / tests)` instead of the actual score.
+
 <Screenshot> These are the values of `tests` and `failures` when all of the test cases pass. We can see that `tests` and `failures` do not contain the correct nuber of tests run and failed respectively.
+[!Image]()
 <Screenshot> These are the values of `tests` and failures when not all test cases pass. In this you can see that the correct number of tests and failures are actually stored in the correct variables. 
+[!Image]()
 
 
 
