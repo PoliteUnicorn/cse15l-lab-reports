@@ -66,16 +66,15 @@ so it doesn’t get the correct values for the score. The `tests` variable store
    * bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected
    
 4. A description of what to edit to fix the bug
-In order to fix the bug, you must create an if-else statement in grade.sh in order to account for the case where all test cases pass. I would create a variable to store the first word of the line, and if that word is `OK`, this means that all tests passed in JUnit, so I would print that they received a full score, and this would ensure that this edge case is taken care of before the general format is used for tests where not all of them passed. I would include a code block like the one below:
-```
-checkAllPass=$(echo $endLine | awk '{print $1 }')
-if [[ $checkAllPass == "OK" ]]
-then
-   echo "Score: 100%"
-   exit 0
-fi
-``` 
-
+* In order to fix the bug, I would create an if-else statement in grade.sh in order to account for the case where all test cases pass. I would create a variable to store the first word of the line, and if that word is `OK`, this means that all tests passed in JUnit, so I would print that they received a full score, and this would ensure that this edge case is taken care of before the general format is used for tests where not all of them passed. I would include a code block like the one below before I check the cases for when not all tests pass:
+   ```
+   checkAllPass=$(echo $endLine | awk '{print $1 }')
+   if [[ $checkAllPass == "OK" ]]
+   then
+      echo "Score: 100%"
+      exit 0
+   fi
+  ``` 
 
 
 
