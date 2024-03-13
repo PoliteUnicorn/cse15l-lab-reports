@@ -14,9 +14,9 @@ do subtraction, so I put a `$` in front of the variable names. Am I assigning my
 solve this? 
 Thanks!
 
-`<Screenshot>` This is my code at line 51 and the output for the corrected methods: [!Image]()
+`<Screenshot>` This is my code at line 51 and the output for the corrected methods when it throws a bug: ![Image](step_1_student_list_correct_bug.png)
 
-`<Screenshot>` This is my code and the output for the other tests. [!Image]()
+`<Screenshot>` This is my code and the output for the other tests where it works. ![Image](step_1_student_subtle_bug.png)
 
 ### TA Response 
 Hi Aneed! 
@@ -33,9 +33,9 @@ that I didn’t take into account the format of the JUnit tests when all of the 
 so it doesn’t get the correct values for the score. The `tests` variable stores the word `tests)` and the failures variable is out of bound for the length of the output, so it stores nothing. That’s why when the final score is printed it says ` / tests)` instead of the actual score.
 
 <Screenshot> These are the values of `tests` and `failures` when all of the test cases pass. We can see that `tests` and `failures` do not contain the correct nuber of tests run and failed respectively.
-[!Image]()
+![Image](student-finds-bug.png)
 <Screenshot> These are the values of `tests` and failures when not all test cases pass. In this you can see that the correct number of tests and failures are actually stored in the correct variables. 
-[!Image]()
+![Image](student-finds-bug2.png)
 
 
 
