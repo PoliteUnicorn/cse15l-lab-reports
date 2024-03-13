@@ -37,6 +37,28 @@ so it doesn’t get the correct values for the score. The `tests` variable store
 <Screenshot> These are the values of `tests` and failures when not all test cases pass. In this you can see that the correct number of tests and failures are actually stored in the correct variables. 
 ![Image](student-finds-bug2.png)
 
+### Next steps 
+* The file & directory structure needed to create this bug:
+  * ![Image](directory-structure-bug.png)
+* The contents of each file (excluding `.class` files and other files I cannot open) before fixing the bug:
+ * 
+
+The full command line (or lines) you ran to trigger the bug
+bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected
+A description of what to edit to fix the bug
+In order to fix the bug, you must create an if-else statement in grade.sh in order to account for the case where all test cases pass. I would create a variable to store the first word of the line, and if that word is `OK`, this means that all tests passed in JUnit, so I would print that they received a full score, and this would ensure that this edge case is taken care of before the general format is used for tests where not all of them passed. I would include a code block like the one below:
+```
+checkAllPass=$(echo $endLine | awk '{print $1 }')
+if [[ $checkAllPass == "OK" ]]
+then
+   echo "Score: 100%"
+   exit 0
+fi
+``` 
+
+
+
+
 
 
 
